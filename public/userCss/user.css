@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.landing-page{
+    background-color: rgb(255, 224, 229);
+    /* height: 100vh; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10px;
+}
+.navbar>h1{
+   color: red;
+   font-size: 30px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul>li{
+    list-style-type: none;
+    margin: 0px 20px;
+    font-weight: bolder;
+}
+.sign-out{
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color: rgb(235, 39, 5);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.food-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.landing-food-img{
+    width: 500px;
+    height: 500px;
+    /* object-fit:; */
+}
+.food-text>h1{
+    font-size: 50px;
+    width: 600px;
+}
+.btn-1{
+    border: none;
+    background-color: red;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+.btn-2{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.food-container{
+    width: 270px;
+    padding: 10px;
+    /* border: 1px solid grey; */
+    /* border-radius: 50px; */
+background: #fbdada;
+box-shadow:  5px 5px 15px #e4c6c6,
+             -5px -5px 15px #ffeeee;
+}
+.food-container>img{
+ width: 100%;
+ height: 150px;
+ object-fit: cover;
+}
+.add-cart-btn{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text-container{
+    padding-left: 10px;
+}
+.cart-flex>p{
+    font-weight: bolder;
+
+}
+.starters{
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.name{
+    padding-left: 30px;
+}
+

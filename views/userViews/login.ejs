@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../userCss/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1 class="logo-name">ALL IN ONE</h1>
+        <div class="form-container">
+            <form method="post" action="/create-user"  class="login-form">
+                <h1>Welcome to All In 1 Food's</h1>
+                <p>Create your free account!!</p>
+                <div>
+                    <p>Name</p>
+                    <input type="text" placeholder="Enter your name" name="userName" required>
+                </div>
+                <div>
+                    <p>Email</p>
+                    <input type="text" placeholder="Enter your email" name="userEmail" required>
+                </div>
+                <div>
+                    <p>Phone Number</p>
+                    <input type="text" placeholder="Enter your phone number" name="userNumber" required>
+                </div>
+                <div>
+                    <p>Create password</p>
+                    <input type="password" placeholder="create password" name="userPassword" required>
+                </div>
+                <button class="create-btn" >Create Account</button>
+            </form>
+        </div>
+    </div>
+    <div class="food-container">
+        <div class="food-nav">
+            <div>
+                <p><i class="bi bi-app green-box"></i>&nbsp;&nbsp;Veg Spices</p>
+                <p><i class="bi bi-app red-box"></i>&nbsp;&nbsp;Non-veg Spices</p>
+            </div>
+            <a href="/sign-in"><button class="sign-in-btn">Sign in</button></a>
+        </div>
+        <div class="img-container">
+            <img src="../images/food-photographer-E94j3rMcxlw-unsplash-removebg-preview.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
